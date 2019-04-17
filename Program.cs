@@ -4,40 +4,65 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nested_q1_1
-    //user can input no of time to print *
+namespace challeng_nested.cs
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int userinput;
-            int rowCounter
-                , colum, rows, textCounter;
-            // get input from user no of row
-            Console.Write("How many rows of * you want to create :");
-            userinput = int.Parse(Console.ReadLine());
-            rows = userinput;
-            colum = rows;
 
-            rowCounter = 1;
-            while (rowCounter <= rows)
+            int linelength;
+     //       int spacecount;
+       //     spacecount = 0;
+
+            int row;
+            int colum;
+            row = 0;
+            linelength = 11;
+
+            while (row <= 6) 
             {
-                textCounter = colum;
-                while (textCounter >= 1)
+
+                
+                colum = 1;
+                while (colum <= linelength) 
                 {
                     Console.Write("*");
-                    textCounter = textCounter - 1;
+                    colum++;
+
+
                 }
                 Console.Write("\n");
-                colum = colum - 1;
-                rowCounter = rowCounter + 1;
+
+                linelength = linelength - 2;
+
+
+                Console.Write(" ");
+
+                row = row + 1;
+                if (row ==2)
+                {
+
+                    Console.Write(" ");
+
+                }
+                
+                if (row == 3)
+                {
+                    Console.Write("  ");
+                }
+                if(row == 4)
+                {
+                    Console.Write("   ");
+                }
+                if (row == 5)
+                {
+                    Console.Write("    ");
+                }
+                
             }
-            Console.ReadLine();
-
-
-
-
+            Console.ReadKey();
         }
+
     }
 }
