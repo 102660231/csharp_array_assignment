@@ -1,0 +1,7 @@
+C:\Users\Hilary\source\repos\nested_q3.cs\nested_q3.cs\bin\Debug\nested_q3.cs.exe.config
+C:\Users\Hilary\source\repos\nested_q3.cs\nested_q3.cs\bin\Debug\nested_q3.cs.exe
+C:\Users\Hilary\source\repos\nested_q3.cs\nested_q3.cs\bin\Debug\nested_q3.cs.pdb
+C:\Users\Hilary\source\repos\nested_q3.cs\nested_q3.cs\obj\Debug\nested_q3.cs.csprojAssemblyReference.cache
+C:\Users\Hilary\source\repos\nested_q3.cs\nested_q3.cs\obj\Debug\nested_q3.cs.csproj.CoreCompileInputs.cache
+C:\Users\Hilary\source\repos\nested_q3.cs\nested_q3.cs\obj\Debug\nested_q3.cs.exe
+C:\Users\Hilary\source\repos\nested_q3.cs\nested_q3.cs\obj\Debug\nested_q3.cs.pdb
